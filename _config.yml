@@ -1,14 +1,26 @@
-layout_spectrum: 0.749128
-typography_spectrum: 0.1387909
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
-  saturation: 0.2085739
-  lightness: 0.606239
-  brandStrength: 0.3193481
-  rhythmicContrast: 0.6734041
+  saturation: 0.5405784
+  brandStrength: 0.9291045
+  lightness: 0.7313433
   brandColors:
     - '#F7EDF0'
     - '#F4CBC6'
     - '#F4AFAB'
     - '#F4EEA9'
     - '#F4F482'
+  rhythmicContrast: 0.7238806
+typography_spectrum: 0.8498135
+layout_spectrum: 0.8488806
 name: 7daytek
